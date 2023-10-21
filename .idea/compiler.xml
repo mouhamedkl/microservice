@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server-eureka" />
+        <module name="Assurance" />
+        <module name="Gateway" />
+        <module name="descovery_ms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Assurance" target="1.8" />
+      <module name="descovery_ms" target="1.8" />
+      <module name="examen-Assurance-S2" target="1.8" />
+      <module name="Gateway" target="1.8" />
+      <module name="server-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Assurance" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="descovery_ms" options="-parameters" />
+      <module name="examen-Assurance-S2" options="-parameters" />
+      <module name="server-eureka" options="-parameters" />
+    </option>
+  </component>
+</project>
